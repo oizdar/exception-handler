@@ -1,0 +1,27 @@
+{
+    "name": "oizdar/exception-handler",
+    "description": "consistent exception-handler used in REST applications",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Radosław Malinowski",
+            "email": "malinowski.rad@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:oizdar/communication-standard.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "oizdar\\ExceptionHandler\\": "src/"
+        }
+    },
+    "require": {
+        "php": "~7.1",
+        "silex/silex": "^2.0",
+        "oizdar/communication-standard": "dev-master"
+    }
+}
